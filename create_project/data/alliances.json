@@ -1,0 +1,21 @@
+[{
+  "codeCountry": "CO",
+  "legal": {
+    "name": "Allianza Padre 1",
+    "nit": "12345",
+    "address": "Calle 12",
+    "phone": "300 12345678",
+    "name_representative": "Pepito Perez",
+    "phone_representative": "301 12345678"
+  }
+}, {
+  "codeCountry": "CO",
+  "legal": {
+    "name": "Allianza Padre 2",
+    "nit": "12346",
+    "address": "Calle 14",
+    "phone": "300 12345678",
+    "name_representative": "Fulanito de Tal",
+    "phone_representative": "301 12345678"
+  }
+}]

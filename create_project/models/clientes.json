@@ -1,0 +1,58 @@
+{
+  "name": "clientes",
+  "module_type": "general",
+  "fields": {
+    "fields": {
+      "identification": {
+        "notEmpty": true,
+        "errorMessage": "identificationRequired",
+        "isLength": {
+          "options": [{
+            "min": 10
+          }],
+          "errorMessage": "identificationMinLen"
+        }
+      },
+      "name": {
+        "notEmpty": true,
+        "errorMessage": "nameRequired",
+        "isLength": {
+          "options": [{
+            "min": 8
+          }],
+          "errorMessage": "nameMinLen"
+        }
+      },
+      "poliza": {
+        "object": true
+      },
+      "poliza-type_id": {
+        "notEmpty": true,
+        "errorMessage": "polizaTypeRequired",
+        "toObject": "alliances"
+      },
+      "poliza-value": {
+        "notEmpty": true,
+        "errorMessage": "polizaValueRequired"
+      },
+      "poliza-create_date": {
+        "isDate": {
+          "errorMessage": "dateMustBeDate"
+        }
+      }
+    },
+    "fields_type": {
+      "identification": "S",
+      "name": "S",
+      "poliza": "O",
+      "poliza-type_id": "TO",
+      "poliza-value": "N",
+      "poliza-create_date": "D"
+    },
+    "keys": {
+      "identification": "UNIQUE",
+      "name": "INDEX",
+      "poliza-type_id": "INDEX"
+    }
+  }
+}

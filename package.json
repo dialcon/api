@@ -1,0 +1,47 @@
+{
+  "name": "api_miaguila",
+  "version": "1.0.0",
+  "description": "Api para los servicios de Mi Águila",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "apicache": "^1.2.0",
+    "async": "",
+    "aws-sdk": "^2.81.0",
+    "body-parser": "",
+    "compression": "",
+    "cookie-parser": "",
+    "cron": "1.2.1",
+    "crypto": "^1.0.1",
+    "email-validator": "^1.1.1",
+    "exceljs": "",
+    "express": "",
+    "express-device": "^0.4.2",
+    "express-validator": "",
+    "formidable": "",
+    "georedis": "",
+    "handlebars": "",
+    "i18n": "",
+    "jsonwebtoken": "",
+    "libphonenumber-js": "~1.2.15",
+    "lodash": "",
+    "moment": "",
+    "moment-timezone": "",
+    "morgan": "",
+    "nodemailer": "",
+    "nodemailer-ses-transport": "",
+    "pg": "^7.4.1",
+    "phone": "^1.0.10",
+    "redis": "",
+    "redlock": "^3.1.2",
+    "request": "",
+    "rimraf": "^2.6.1",
+    "uuid": "^3.2.1",
+    "xlsx": "^0.11.8"
+  },
+  "engines": {
+    "node": "7.0.0"
+  }
+}

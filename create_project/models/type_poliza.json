@@ -1,0 +1,24 @@
+{
+  "name": "type_poliza",
+  "module_type": "general",
+  "fields": {
+    "fields": {
+      "title": {
+        "notEmpty": true,
+        "errorMessage": "titleRequired"
+      },
+      "value": {
+        "notEmpty": true,
+        "errorMessage": "typePolizaValueRequired"
+      }
+    },
+
+    "fields_type": {
+      "title": "S",
+      "value": "N"
+    },
+    "keys": {
+      "title": "UNIQUE"
+    }
+  }
+}
